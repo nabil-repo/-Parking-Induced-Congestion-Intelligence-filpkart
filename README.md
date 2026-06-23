@@ -1,4 +1,4 @@
-# Parking-Induced Congestion Intelligence
+# TrafficEye Command
 
 **Gridlock Hackathon 2.0 — Round 2 Command Center Prototype**
 Problem statement: *Poor Visibility on Parking-Induced Congestion*

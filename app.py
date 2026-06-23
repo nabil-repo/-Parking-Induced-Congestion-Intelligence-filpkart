@@ -1,7 +1,7 @@
 """
 app.py
 ------
-Streamlit dashboard: "Parking-Induced Congestion Intelligence"
+Streamlit dashboard: "TrafficEye Command"
 Command Center Edition
 
 Run with:
@@ -27,7 +27,7 @@ from data_pipeline import load_violations, PARKING_SEVERITY_WEIGHTS
 from hotspot_engine import build_hotspot_table, forecast_hotspot, optimize_patrol
 
 st.set_page_config(
-    page_title="Parking Congestion Intelligence | Command Center",
+    page_title="TrafficEye | Command Center",
     layout="wide",
     page_icon="https://fonts.gstatic.com/s/i/materialiconsoutlined/traffic/v1/24px.svg",
 )
@@ -552,7 +552,7 @@ st.sidebar.markdown(
     f'padding:0.5rem 0 0.25rem 0;">'
     f'<span class="material-symbols-outlined" style="font-size:1.2rem;color:{ICON_COLOR};'
     f'vertical-align:middle;margin-right:0.4rem;">traffic</span>'
-    f'PICIF Controls</div>',
+    f'TrafficEye Controls</div>',
     unsafe_allow_html=True,
 )
 
@@ -647,7 +647,7 @@ st.markdown(
             <div class="title-gradient-text" style="
                 font-size:1.9rem; font-weight:800; font-family:'Inter',sans-serif;
                 line-height:1.2;">
-                Parking-Induced Congestion Intelligence
+                TrafficEye Command
             </div>
         </div>
         <div style="color:{SUB_COLOR};font-size:0.82rem;margin-top:0.1rem;letter-spacing:0.04em;">
